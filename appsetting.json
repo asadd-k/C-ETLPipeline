@@ -1,0 +1,18 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "baseConnectionString": "Data Source=yourDatabase;Integrated Security=True;Pooling=False;TrustServerCertificate=True;Initial Catalog=OnlineCarShowroomApi",
+    "loadConnectionString": "server=127.0.0.1;uid=yourusername;pwd=yourpassword;database=yourdatabase"
+  },
+  "CsvPath": {
+    "BasePath": "pathForCSV"
+  },
+  "ApiUrl": {
+    "URL": "https://fakestoreapi.com/users"
+  }
+}
